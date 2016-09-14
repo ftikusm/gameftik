@@ -1,1 +1,7 @@
 Options All -Indexes
+
+RewriteEngine On
+RewriteRule ^adarkroom/(.*)$ gamelib/adarkroom/$1 [L]
+RewriteRule ^2048/(.*)$ gamelib/2048/$1 [L]
+RewriteRule ^0hh1/(.*)$ gamelib/0hh1/$1 [L]
+RewriteRule ^hextris/(.*)$ gamelib/hextris/$1 [L]
